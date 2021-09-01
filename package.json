@@ -1,0 +1,30 @@
+{
+  "name": "winnie",
+  "main": "./lib/winnie-plugin",
+  "version": "0.0.1",
+  "description": "Winnie is a WYSIWYG editor for Kenga views",
+  "keywords": [
+    "WYSIWYG",
+    "editor",
+    "es6",
+    "kenga",
+    "GUI",
+    "UI",
+    "browser"
+  ],
+  "activationCommands": {
+    "atom-workspace": "winnie-plugin:design"
+  },
+  "deserializers": {
+    "WinnieModel": "deserialize"
+  },
+  "repository": "https://github.com/marat-gainullin/winnie-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.12.13",
+    "winnie": "file://../../../projects/client/winnie/build/lib/winnie-0.1.33.tgz"
+  }
+}

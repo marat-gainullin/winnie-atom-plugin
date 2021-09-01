@@ -1,0 +1,32 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Design GUI",
+        "command": "winnie-plugin:design"
+      }
+    ],
+    ".tree-view": [
+      {
+        "label": "Design GUI",
+        "command": "winnie-plugin:design"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Winnie GUI editor",
+          "submenu": [
+            {
+              "label": "Design GUI",
+              "command": "winnie-plugin:design"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

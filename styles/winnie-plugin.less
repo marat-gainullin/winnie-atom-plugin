@@ -1,0 +1,96 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+@import "./start.less";
+
+.winnie-design-view {}
+
+.p-winnie-hints {
+  color: @text-color-subtle;
+}
+
+.p-winnie-widget {
+  outline-color: @text-color;
+}
+
+.p-winnie-selection-rect {
+  border: 1px dashed @text-color-highlight;
+}
+
+.p-widget {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  border-radius: @component-border-radius;
+  background-color: @base-background-color;
+  color: @text-color;
+  border-color: @base-border-color;
+}
+
+.p-toolbar {
+  background: @tool-panel-background-color;
+  border-bottom: 1px solid @tool-panel-border-color;
+}
+
+.p-toolbar > button > .p-image:before {
+  color: @text-color;
+}
+
+.p-toolbar > button:disabled > .p-image:before {
+  color: darken(@text-color, 40%);
+}
+
+.p-menu-item > .p-image::before,
+.p-menu-item > .p-paragraph {
+  color: @text-color;
+}
+
+.p-menu-item-submenu:after {
+  color: @text-color;
+}
+
+.p-menu-item[disabled] > .p-image:before,
+.p-menu-item[disabled] > .p-paragraph {
+  color: darken(@text-color, 40%);
+}
+
+.p-grid-cell,
+.p-grid-header-cell {
+  border: 1px solid @tab-bar-border-color;
+}
+
+.p-grid-cell-focused,
+.p-grid-selected-row {
+  color: @text-color-highlight;
+  background-color: @background-color-highlight;
+}
+
+.p-grid-cell > .p-winnie-cell-editor {
+  background: transparent;
+}
+
+.p-winnie-widgets > .p-widget {
+  background-color: @base-background-color;
+}
+
+.p-widget-category-header > .p-paragraph {
+  color: @text-color;
+}
+
+.p-widget-palette-item > .p-image,
+.p-widget-palette-item > .p-paragraph {
+  color: @text-color;
+}
+
+.p-widget-palette-item:hover > .p-image,
+.p-widget-palette-item:hover > .p-paragraph {
+  color: @text-color-highlight;
+}
+
+.p-tab-caption, .p-tab-caption:hover {
+  background-color: @tab-background-color;
+}
+
+.p-tab-caption-selected, .p-tab-caption-selected:hover {
+  background-color: @tab-background-color-active;
+}
