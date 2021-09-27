@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "@babel/traverse": "^7.12.13",
-    "winnie": "file://../../../projects/client/winnie/build/lib/winnie-0.1.33.tgz"
+    "winnie": "^0.1.34"
   }
 }
