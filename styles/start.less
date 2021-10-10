@@ -181,10 +181,25 @@
   white-space: nowrap
 }
 
+.p-box-horizontal::after{
+  height: 100%;
+  width: 0px;
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .p-box-vertical {
   overflow-y: auto;
-  white-space: normal
+  white-space: normal;
+  display: inline-flex;
+  flex-direction: column;
 }
+
+.p-box-vertical > .p-widget {
+  flex: 0 0 auto;
+}
+
 
 .p-scroll > .p-widget {
   position: absolute;
@@ -576,7 +591,7 @@ input[type=checkbox], input[type=radio] {
 @font-face {
   font-family: fontello;
   src: url("atom://winnie-plugin/assets/fontello-d6aeb37e.eot");
-  src: url("atom://winnie-plugin/assets/fontello-d6aeb37e.eot") format("embedded-opentype"),url(atom://winnie-plugin/assets/fontello-a647815b.woff2) format("woff2"),url(atom://winnie-plugin/assets/fontello-d4a99651.woff) format("woff"),url(atom://winnie-plugin/assets/fontello-8a6d28c9.ttf) format("truetype"),url(atom://winnie-plugin/assets/fontello-1ea8155f.svg) format("svg");
+  src: url("atom://winnie-plugin/assets/fontello-d6aeb37e.eot") format("embedded-opentype"), url(atom://winnie-plugin/assets/fontello-a647815b.woff2) format("woff2"), url(atom://winnie-plugin/assets/fontello-d4a99651.woff) format("woff"), url(atom://winnie-plugin/assets/fontello-8a6d28c9.ttf) format("truetype"), url(atom://winnie-plugin/assets/fontello-1ea8155f.svg) format("svg");
   font-weight: 400;
   font-style: normal;
 }
