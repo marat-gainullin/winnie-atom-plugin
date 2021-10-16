@@ -337,6 +337,11 @@
   vertical-align: top
 }
 
+.p-grid-section,
+.p-grid-body-filler {
+  vertical-align: top;
+}
+
 .p-grid-section-body-right, .p-grid-section-footer-right, .p-grid-section-frozen-right {
   min-height: 0
 }
@@ -348,7 +353,8 @@
 .p-grid-section {
   border-collapse: collapse;
   table-layout: fixed;
-  position: relative
+  position: relative;
+  display: inline-table;
 }
 
 .p-grid-header-row, .p-grid-row {
