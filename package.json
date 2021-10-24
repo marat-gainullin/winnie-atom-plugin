@@ -24,7 +24,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@babel/traverse": "^7.12.13",
-    "winnie": "^0.1.35"
+    "@babel/traverse": "^7.15.4",
+    "winnie": "^0.1.38"
   }
 }
