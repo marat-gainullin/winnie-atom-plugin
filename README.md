@@ -12,14 +12,11 @@ It contains widgets palette, visual playground, properties pane and view structu
 * Comprehensive palette of widgets.
 * Extensible palette.
 * Extensible templates.
-* Darg & drop from palette to visual playground.
+* Drag & drop from palette to visual playground.
 * Snap to grid while visual manipulation with mouse.
 * Undo/redo of every action.
 * Opening layout composition from `.json` files with `JSON` data.
-* Adoption of an already created kenga composition module and editing it.
-* Saving results to clipboad as `JSON` data.
-* Generating of Es6 code that creates a layout in runtime without dependecies on Winnie.
-* Saving only edited properties if thiers values are not same as default ones.
-
-## Demo
-There is a demo application with Winnie - [KengaJS Designer Demo](http://kengajs.com/demo/winnie.html)
+* Adoption of an already created Kenga composition module and editing it.
+* Saving results to clipboard as `JSON` data.
+* Generating of Es6 code that creates a layout in runtime without dependencies on Winnie.
+* Saving only edited properties if theirs values are not same as default ones.
