@@ -12,11 +12,22 @@
 }
 
 .p-winnie-widget {
-  outline-color: @text-color;
+  outline: 1px dashed @text-color;
+  overflow: visible;
+}
+
+.p-winnie-widget-selected {
+  outline: 3px dashed @text-color;
+  z-index: 500;
+}
+
+.p-winnie-decoration {
+  z-index: 550;
 }
 
 .p-winnie-selection-rect {
   border: 1px dashed @text-color-highlight;
+  z-index: 600;
 }
 
 .p-widget {
