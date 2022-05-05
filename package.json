@@ -1,7 +1,7 @@
 {
   "name": "winnie-atom-plugin",
   "main": "./lib/winnie-plugin",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Winnie is a WYSIWYG editor for Kenga views",
   "keywords": [
     "WYSIWYG",
